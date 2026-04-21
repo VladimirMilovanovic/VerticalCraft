@@ -54,11 +54,13 @@ h1, h2, h3, h4 { font-family: 'Space Grotesk', sans-serif; }
     display: flex; align-items: center; gap: 10px;
 }
 .logo-mark {
-    width: 40px; height: 40px; border-radius: 10px;
-    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
-    display: flex; align-items: center; justify-content: center;
-    color: #fff; font-weight: 700; font-size: 1.1rem;
+    width: 130px; height: 48px; border-radius: 10px;
+    background: var(--dark) url('img/logo.png') center/85% no-repeat;
+    box-shadow: 0 2px 8px rgba(26,35,50,0.15);
 }
+.logo-text { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.4rem; letter-spacing: -0.5px; }
+.logo-text-primary { color: var(--dark); }
+.logo-text-accent { color: var(--accent); }
 .nav-links { display: flex; gap: 32px; list-style: none; align-items: center; }
 .nav-links a {
     font-size: 0.9rem; font-weight: 500; color: var(--text);
